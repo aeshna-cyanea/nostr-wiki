@@ -160,6 +160,7 @@
 	  `["OK", "b1a649ebe8...", false, "pow: difficulty 26 is less than 30"]`
 	  `["OK", "b1a649ebe8...", false, "error: could not connect to the database"]`
 - `CLOSED` messages MUST be sent in response to a `REQ` when the relay refuses to fulfill it. It can also be sent when a relay decides to kill a subscription on its side before a client has disconnected or sent a `CLOSE`. This message uses the same pattern of `OK` messages with the machine-readable prefix and human-readable message. Some examples:
+  collapsed:: true
 	- `["CLOSED", "sub1", "duplicate: sub1 already opened"]`
 	  `["CLOSED", "sub1", "unsupported: filter contains unknown elements"]`
 	  `["CLOSED", "sub1", "error: could not connect to the database"]`
