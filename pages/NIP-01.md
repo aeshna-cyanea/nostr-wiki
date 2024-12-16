@@ -1,16 +1,12 @@
 - NIP-01
-  ======
-  
   Basic protocol flow description
   `draft` `mandatory`
   
   This NIP defines the basic protocol that should be implemented by everybody. New NIPs may add new optional (or mandatory) fields and messages and features to the structures and flows described here.
 - ## Events and signatures
-  
-  Each user has a keypair. Signatures, public key, and encodings are done according to the [Schnorr signatures standard for the curve `secp256k1`](https://bips.xyz/340.
-  
+  collapsed:: true
+  Each user has a keypair. Signatures, public key, and encodings are done according to the [Schnorr signatures standard for the curve `secp256k1`](https://bips.xyz/340)
   The only object type that exists is the `event`, which has the following format on the wire:
-  
   ```jsonc
   {
   "id": <32-bytes lowercase hex-encoded sha256 of the serialized event data>,
@@ -25,9 +21,7 @@
   "sig": <64-bytes lowercase hex of the signature of the sha256 hash of the serialized event data, which is the same as the "id" field>
   }
   ```
-  
   To obtain the `event.id`, we `sha256` the serialized event. The serialization is done over the UTF-8 JSON-serialized string (which is described below) of the following structure:
-  
   ```
   [
   0,
@@ -38,18 +32,17 @@
   <content, as a string>
   ]
   ```
-  
-  To prevent implementation differences from creating a different event ID for the same event, the following rules MUST be followed while serializing:
-- No whitespace, line breaks or other unnecessary formatting should be included in the output JSON.
-- No characters except the following should be escaped, and instead should be included verbatim:
-	- A line break, `0x0A`, as `\n`
-	- A double quote, `0x22`, as `\"`
-	- A backslash, `0x5C`, as `\\`
-	- A carriage return, `0x0D`, as `\r`
-	- A tab character, `0x09`, as `\t`
-	- A backspace, `0x08`, as `\b`
-	- A form feed, `0x0C`, as `\f`
-- UTF-8 should be used for encoding.
+	- To prevent implementation differences from creating a different event ID for the same event, the following rules MUST be followed while serializing:
+		- No whitespace, line breaks or other unnecessary formatting should be included in the output JSON.
+		- No characters except the following should be escaped, and instead should be included verbatim:
+			- A line break, `0x0A`, as `\n`
+			- A double quote, `0x22`, as `\"`
+			- A backslash, `0x5C`, as `\\`
+			- A carriage return, `0x0D`, as `\r`
+			- A tab character, `0x09`, as `\t`
+			- A backspace, `0x08`, as `\b`
+			- A form feed, `0x0C`, as `\f`
+		- UTF-8 should be used for encoding.
 - ### Tags
   
   Each tag is an array of one or more strings, with some conventions around them. Take a look at the example below:
