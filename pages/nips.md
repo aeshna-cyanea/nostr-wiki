@@ -2,12 +2,18 @@
 - NIPs stand for *Nostr Implementation Possibilities*.
   They exist to document what may be implemented by [[Nostr]] -compatible _relay_ and _client_ software.
 - [List](#list)
-- [Event Kinds](#event-kinds)
-- [Message Types](#message-types)
-- [Client to Relay](#client-to-relay)
-- [Relay to Client](#relay-to-client)
-- [Standardized Tags](#standardized-tags)
-- [Breaking Changes](#breaking-changes)
+  
+  [Event Kinds](#event-kinds)
+  
+  [Message Types](#message-types)
+  
+  [Client to Relay](#client-to-relay)
+  
+  [Relay to Client](#relay-to-client)
+  
+  [Standardized Tags](#standardized-tags)
+  
+  [Breaking Changes](#breaking-changes)
   
   
   ---
