@@ -19,10 +19,10 @@
   ],
   "content": <arbitrary string>,
   "sig": <64-bytes lowercase hex of the signature of the sha256 hash of the serialized event data, which is the same as the "id" field>
-  }
+  
   ```
   To obtain the `event.id`, we `sha256` the serialized event. The serialization is done over the UTF-8 JSON-serialized string (which is described below) of the following structure:
-  ```
+  ```jsonc
   [
   0,
   <pubkey, as a lowercase hex string>,

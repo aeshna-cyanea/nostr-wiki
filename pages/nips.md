@@ -6,6 +6,7 @@
 	- [[NIP-02]] Follow List
 	- [[NIP-03]] OpenTimestamps Attestations for Events
 	- [[NIP-04]] Encrypted Direct Message - `unrecommended`: deprecated in favor of [NIP-17](17.md)
+	  background-color:: red
 	- [[NIP-05]] Mapping Nostr keys to DNS-based internet identifiers
 	- [[NIP-06]] Basic key derivation from mnemonic seed phrase
 	- [[NIP-07]] window.nostr  capability for web browsers
