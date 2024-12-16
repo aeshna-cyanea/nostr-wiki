@@ -1,4 +1,4 @@
-- sourced from https://wikifreedia.xyz/nips/laeserin@gitcitadel.com edited by me
+- sourced from https://wikifreedia.xyz/nips/laeserin@gitcitadel.com edited by me for formatting
 - NIPs stand for *Nostr Implementation Possibilities*.
   They exist to document what may be implemented by [[Nostr]] -compatible _relay_ and _client_ software.
 - ## List
