@@ -2,8 +2,6 @@
   ======
   
   Basic protocol flow description
-  -------------------------------
-  
   `draft` `mandatory`
   
   This NIP defines the basic protocol that should be implemented by everybody. New NIPs may add new optional (or mandatory) fields and messages and features to the structures and flows described here.

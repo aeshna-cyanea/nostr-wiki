@@ -1,4 +1,4 @@
-- sourced from https://wikifreedia.xyz/nips/laeserin@gitcitadel.com edited by me for formatting
+- sourced from https://wikifreedia.xyz/nips/laeserin@gitcitadel.com edited by me for formatting/clarity
 - NIPs stand for *Nostr Implementation Possibilities*.
   They exist to document what may be implemented by [[Nostr]] -compatible _relay_ and _client_ software.
 - ## List
@@ -9,7 +9,7 @@
 	- [[NIP-05]] Mapping Nostr keys to DNS-based internet identifiers
 	- [[NIP-06]] Basic key derivation from mnemonic seed phrase
 	- [[NIP-07]] window.nostr  capability for web browsers
-	- [[NIP-08]] Handling Mentions -
+	- [[NIP-08]] Handling Mentions - Warning*  `unrecommended`: deprecated in favor of [NIP-27](27.md)
 	- [[NIP-09]] Event Deletion
 	- [[NIP-10]] Conventions for clients' use of e and p  tags in text events
 	- [[NIP-11]] Relay Information Document
