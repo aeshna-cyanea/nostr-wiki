@@ -1,0 +1,4 @@
+- **Nostr** is a decentralized network protocol for a distributed social networking system. The name is an acronym for "*Notes and Other Stuff Transmitted by Relay*". Posts are resistant to censorship and are cryptographically validated.
+- [[Jack Dorsey]], the co-founder of [[Twitter]], endorses and financially supported the development of *Nostr*.
+- The first developers of *Nostr* were [[fiatjaf]], [[Ben Arc]], and [[Super Testnet]].
+- US Senator [[Cynthia Lummis]] and [[Ethereum]]'s creator [[Vitalik Buterin]] are among its early adopters.
