@@ -1,0 +1,1 @@
+- *Warning*  `unrecommended`: deprecated in favor of [NIP-17](17.md)

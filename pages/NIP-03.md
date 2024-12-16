@@ -1,9 +1,5 @@
-- NIP-03
+- NIP-03 OpenTimestamps Attestations for Events
   ======
-  
-  OpenTimestamps Attestations for Events
-  --------------------------------------
-  
   `draft` `optional`
   
   This NIP defines an event with `kind:1040` that can contain an [OpenTimestamps](https://opentimestamps.org/) proof for any other event:
