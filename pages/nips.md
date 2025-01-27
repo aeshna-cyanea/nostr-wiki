@@ -94,6 +94,7 @@
   Please update these lists when proposing NIPs introducing new event kinds.
 - ## Standardized Tags
   
+  
   | name              | value                                | other parameters                | NIP                                   |
   | ----------------- | ------------------------------------ | ------------------------------- | ------------------------------------- |
   | e                | event id (hex)                       | relay URL, marker, pubkey (hex) | [[NIP-01]], [[NIP-10]]              |
