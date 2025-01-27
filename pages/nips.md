@@ -1,4 +1,4 @@
-- sourced from https://wikifreedia.xyz/nips/laeserin@gitcitadel.com edited by me for formatting/clarity
+- sourced from https://wikifreedia.xyz/nips/laeserin@gitcitadel.com edited by me (autumn)for formatting/clarity
 - NIPs stand for *Nostr Implementation Possibilities*.
   They exist to document what may be implemented by [[Nostr]] -compatible _relay_ and _client_ software.
 - ## List
@@ -68,6 +68,7 @@
 	- [[NIP-98]] HTTP Auth
 	- [[NIP-99]] Classified Listings
 - ## Event Kinds
+  collapsed:: true
 	- Please see [[NIP Event Register]].
 - ## Message types
 - ### Client to Relay
